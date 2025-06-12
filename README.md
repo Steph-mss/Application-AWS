@@ -16,10 +16,6 @@ Application-AWS/
 ├── backend/ # API Node.js + gestion des VMs (Terraform / Ansible)
 └── README.md # Ce fichier
 
-markdown
-Copier
-Modifier
-
 ---
 
 ## ✨ Fonctionnalités principales
@@ -78,76 +74,51 @@ Modifier
 ```bash
 git clone https://github.com/Steph-mss/Application-AWS.git
 cd Application-AWS
-2️⃣ Installation du Frontend
-bash
-Copier
-Modifier
+
+### 2️⃣ Installation du Frontend
+
+```bash
 cd frontend
 npm install
-3️⃣ Installation du Backend
-bash
-Copier
-Modifier
+
+### 3️⃣ Installation du Backend
+
+```bash
 cd ../backend
 npm install
-▶️ Lancement de l'application
-Démarrer le Backend
-bash
-Copier
-Modifier
-cd backend
-npm start
-ou en mode développement :
 
-bash
-Copier
-Modifier
-npm run dev
-Démarrer le Frontend
-bash
-Copier
-Modifier
-cd frontend
-npm start
+---
+## ▶️ Lancement de l'application
+
+### Démarrer le Backend
+
+- **`npm start`** : Démarre le serveur en mode production.
+- **`npm run dev`** : Démarre le serveur en mode développement (avec `nodemon` pour un rechargement automatique).
+
+### Démarrer le Frontend
+- **`npm start`** : Démarre le serveur en mode production.
+- **`npm run dev`** : Démarre le serveur en mode développement (avec `nodemon` pour un rechargement automatique).
+
 Accéder à l’application via : http://localhost:3000
 
-🔍 Structure détaillée
-Backend
-Authentification : JWT, refresh token, gestion des sessions
+---
+### 🔍 Structure détaillée
 
-Gestion des VMs AWS : intégration avec Terraform & Ansible
+## Backend
 
-Services API REST pour la création et la gestion des VMs sur AWS
+- ** Authentification **: JWT, refresh token, gestion des sessions
+- ** Gestion des VMs AWS **: intégration avec ** Terraform ** & ** Ansible **
+- ** Services API REST ** pour la création et la gestion des VMs sur AWS
+- ** Envoi d’emails ** via service Gmail
+- ** Sécurisation **: CORS + Middleware JWT
 
-Envoi d’emails via service Gmail
 
-Sécurisation : CORS + Middleware JWT
+## Frontend
 
-Frontend
-Interface utilisateur en React
-
-Gestion des VMs AWS : création, suppression, téléchargement VPN
-
-Authentification sécurisée
-
-UX optimisée : feedback utilisateur, gestion d’erreurs globale
-
-✅ Contribution
-Les contributions sont les bienvenues !
-Si vous souhaitez contribuer :
-
-Forkez le projet
-
-Créez une branche (git checkout -b feature/ma-feature)
-
-Committez vos modifications (git commit -m 'Ajout de ma feature')
-
-Poussez vers votre fork (git push origin feature/ma-feature)
-
-Ouvrez une pull request
-
-📜 Licence
-Ce projet est sous licence MIT.
-
-💡 Auteur
-Projet personnel développé par Steph-mss.
+- ** Interface utilisateur en React **
+- ** Gestion des VMs AWS **: création, suppression, téléchargement VPN
+- ** Authentification sécurisée ** 
+- ** UX optimisée **:  feedback utilisateur, gestion d’erreurs globale
+---
+### 📜 Licence
+Ce projet est sous licence ** MIT **.
