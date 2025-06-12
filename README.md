@@ -1,3 +1,9 @@
+Bien sûr ! Voici ton texte **corrigé et légèrement amélioré** en Markdown, prêt à l'emploi (tu peux le coller dans ton `README.md` directement).
+J'ai corrigé quelques fautes, clarifié certaines phrases et nettoyé la mise en page.
+
+---
+
+```markdown
 # 🚀 Application AWS
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -11,10 +17,14 @@ Le projet combine une interface **Frontend React** et une API **Backend Node.js*
 
 ## 🗂️ Architecture du projet
 
+```
+
 Application-AWS/
-├── frontend/ # Interface utilisateur React
-├── backend/ # API Node.js + gestion des VMs (Terraform / Ansible)
-└── README.md # Ce fichier
+├── frontend/     # Interface utilisateur React
+├── backend/      # API Node.js + gestion des VMs (Terraform / Ansible)
+└── README.md     # Ce fichier
+
+````
 
 ---
 
@@ -23,10 +33,10 @@ Application-AWS/
 ### ✅ Authentification & Gestion des utilisateurs
 
 - Inscription, connexion, déconnexion
-- Réinitialisation de mot de passe
+- Réinitialisation du mot de passe
 - Middleware d'authentification JWT
 - Rafraîchissement de token
-- Gestion des sessions sécurisée
+- Gestion des sessions sécurisées
 
 ### ⚙️ Gestion des machines virtuelles (VM) sur AWS Cloud
 
@@ -38,7 +48,7 @@ Application-AWS/
 
 ### ✉️ Notifications
 
-- Envoi d’emails (ex: réinitialisation de mot de passe) via service Gmail
+- Envoi d’emails (ex : réinitialisation du mot de passe) via le service Gmail
 
 ### 🔐 Sécurisation
 
@@ -50,7 +60,7 @@ Application-AWS/
 
 - Tableau de bord de gestion des VMs AWS
 - Formulaires d’inscription / connexion
-- Feedback utilisateur (modales, messages d'erreurs, loading)
+- Feedback utilisateur (modales, messages d'erreurs, indicateurs de chargement)
 - Gestion globale des erreurs via `ErrorBoundary`
 
 ---
@@ -68,57 +78,69 @@ Application-AWS/
 ---
 
 ## 🚀 Installation
----
+
 ### 1️⃣ Cloner le projet
 
 ```bash
 git clone https://github.com/Steph-mss/Application-AWS.git
 cd Application-AWS
----
+````
+
 ### 2️⃣ Installation du Frontend
 
 ```bash
 cd frontend
 npm install
+```
 
 ### 3️⃣ Installation du Backend
 
 ```bash
 cd ../backend
 npm install
+```
 
 ---
+
 ## ▶️ Lancement de l'application
 
 ### Démarrer le Backend
 
-- **`npm start`** : Démarre le serveur en mode production.
-- **`npm run dev`** : Démarre le serveur en mode développement (avec `nodemon` pour un rechargement automatique).
+* **`npm start`** : démarre le serveur en mode production.
+* **`npm run dev`** : démarre le serveur en mode développement (avec `nodemon` pour un rechargement automatique).
 
 ### Démarrer le Frontend
-- **`npm start`** : Démarre le serveur en mode production.
-- **`npm run dev`** : Démarre le serveur en mode développement (avec `nodemon` pour un rechargement automatique).
 
-Accéder à l’application via : http://localhost:3000
+* **`npm start`** : démarre le serveur en mode production.
+* **`npm run dev`** : démarre le serveur en mode développement.
+
+Accéder à l’application via : [http://localhost:3000](http://localhost:3000)
 
 ---
+
 ### 🔍 Structure détaillée
 
-## Backend
+#### Backend
 
-- ** Authentification **: JWT, refresh token, gestion des sessions
-- ** Gestion des VMs AWS **: intégration avec ** Terraform ** & ** Ansible **
-- ** Services API REST ** pour la création et la gestion des VMs sur AWS
-- ** Envoi d’emails ** via service Gmail
-- ** Sécurisation **: CORS + Middleware JWT
+* **Authentification** : JWT, refresh token, gestion des sessions
+* **Gestion des VMs AWS** : intégration avec **Terraform** & **Ansible**
+* **Services API REST** pour la création et la gestion des VMs sur AWS
+* **Envoi d’emails** via le service Gmail
+* **Sécurisation** : CORS + Middleware JWT
 
+#### Frontend
 
-## Frontend
+* **Interface utilisateur en React**
+* **Gestion des VMs AWS** : création, suppression, téléchargement VPN
+* **Authentification sécurisée**
+* **Expérience utilisateur optimisée** : feedback utilisateur, gestion globale des erreurs
 
-- ** Interface utilisateur en React **
-- ** Gestion des VMs AWS **: création, suppression, téléchargement VPN
-- ** Authentification sécurisée ** 
-- ** UX optimisée **:  feedback utilisateur, gestion d’erreurs globale
 ---
+
 ### 📜 Licence
-Ce projet est sous licence ** MIT **.
+
+Ce projet est sous licence **MIT**.
+
+```
+
+---
