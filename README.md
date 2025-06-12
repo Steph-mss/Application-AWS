@@ -135,5 +135,3 @@ Accéder à l’application via : [http://localhost:3000](http://localhost:3000)
 Ce projet est sous licence **MIT**.
 
 ```
-
----
