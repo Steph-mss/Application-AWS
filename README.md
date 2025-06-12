@@ -68,13 +68,13 @@ Application-AWS/
 ---
 
 ## 🚀 Installation
-
+---
 ### 1️⃣ Cloner le projet
 
 ```bash
 git clone https://github.com/Steph-mss/Application-AWS.git
 cd Application-AWS
-
+---
 ### 2️⃣ Installation du Frontend
 
 ```bash
