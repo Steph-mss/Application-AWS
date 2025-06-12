@@ -1,9 +1,3 @@
-Bien sûr ! Voici ton texte **corrigé et légèrement amélioré** en Markdown, prêt à l'emploi (tu peux le coller dans ton `README.md` directement).
-J'ai corrigé quelques fautes, clarifié certaines phrases et nettoyé la mise en page.
-
----
-
-```markdown
 # 🚀 Application AWS
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -18,7 +12,6 @@ Le projet combine une interface **Frontend React** et une API **Backend Node.js*
 ## 🗂️ Architecture du projet
 
 ```
-
 Application-AWS/
 ├── frontend/     # Interface utilisateur React
 ├── backend/      # API Node.js + gestion des VMs (Terraform / Ansible)
@@ -84,7 +77,6 @@ Application-AWS/
 ```bash
 git clone https://github.com/Steph-mss/Application-AWS.git
 cd Application-AWS
-````
 
 ### 2️⃣ Installation du Frontend
 
